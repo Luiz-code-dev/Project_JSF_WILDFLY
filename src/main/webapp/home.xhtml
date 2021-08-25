@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Pagina Inicial</title>
+</h:head>
+<h:body>
+
+	<h:outputLabel value="Pagina JSF com WILDFLY" />
+
+	<br />
+	<br />
+
+	<p:commandButton value="SALVAR" />
+
+	<div class="card">
+		<h5>Basic</h5>
+		<p:inputText />
+
+		<h5>Floating Label</h5>
+		<span class="ui-float-label"> <p:inputText id="float-input"
+				value="#{inputTextView.text}" /> <p:outputLabel for="@previous"
+				value="Username" />
+		</span>
+
+		<h5>Left Icon</h5>
+		<span class="ui-input-icon-left"> <i class="pi pi-search" /> <p:inputText
+				placeholder="Search" />
+		</span>
+
+		<h5>Right Icon</h5>
+		<span class="ui-input-icon-right"> <i
+			class="pi pi-spin pi-spinner" /> <p:inputText />
+		</span>
+
+		<h5>Help Text</h5>
+		<div class="p-field">
+			<p:outputLabel for="username1" styleClass="p-d-block">Username</p:outputLabel>
+			<p:inputText id="username1" styleClass="p-d-block" />
+			<small class="p-d-block">Enter your username to reset your
+				password.</small>
+		</div>
+
+		<h5>Invalid</h5>
+		<div class="p-field">
+			<p:outputLabel for="username2" styleClass="p-d-block">Username</p:outputLabel>
+			<p:inputText id="username2" styleClass="p-d-block ui-state-error" />
+			<small class="p-d-block ui-state-error">Username is not
+				available.</small>
+		</div>
+
+		<h5>Disabled</h5>
+		<p:inputText disabled="true" />
+	</div>
+
+</h:body>
+
+
+
+
+
+</html>
