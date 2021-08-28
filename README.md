@@ -1,7 +1,7 @@
 # Project_JSF_WILDFLY
 
 
-<h1> Java com WildFly</h1>
+<h1> Java com PrimeFaces e WildFly/JBoss</h1>
 
 
 <p>Foi utilizado as sequintes versões</p>
