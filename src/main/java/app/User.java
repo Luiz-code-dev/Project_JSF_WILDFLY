@@ -25,7 +25,6 @@ public class User implements Serializable {
 	private String phone;
 
 	public User() {
-
 	}
 
 	public User(String firstname, String lastname, Integer age, String street, String city, String postalCode,
