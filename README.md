@@ -5,12 +5,11 @@
 
 
 <p>Foi utilizado as sequintes versões</p>
-<br>
-Java 11
-Wildfly 18.0.1 <br>
-Jboss 7 <br>
-Eclipse 2021-03 <br>
-PostgreSQL 13 <br>
-PrimeFaces 10.0 <br>
 
+Java 11,
+Wildfly 18.0.1,
+Jboss 7,
+Eclipse 2021-03 ,
+PostgreSQL 13,
+PrimeFaces 10.0 ,
 <h2>projeto para fins de conhecimento e tirar duvidas</h2>
